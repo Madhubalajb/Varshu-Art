@@ -1,6 +1,26 @@
+$blue-clr: #3585da;
+$bb-clr: midnightblue;
+$btn-clr: #b3d7ff;
+#body {
+	background-color: $blue-clr;
+}
 .Home
 {
 	h1 {
-		margin: 200px;
+		margin-top: 200px;
+		margin-left: 200px;
+		margin-right: 200px;
+		margin-bottom: 50px;
+		font-size: 2.2rem;
+    	line-height: unset;
+		color: $bb-clr;
+	}
+	a {
+		color: $btn-clr;
+		font-size: 1.1rem;
+		letter-spacing: 2px;
+	}
+	.btn {
+		background-color: black;
 	}
 }
