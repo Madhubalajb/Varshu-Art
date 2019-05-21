@@ -10,8 +10,11 @@ $btn-clr: #b3d7ff;
 		margin-left: 200px;
 		margin-right: 200px;
 		margin-bottom: 50px;
+		font-family: 'Imprima', sans-serif;
 		font-size: 2.2rem;
+		letter-spacing: 1px;
     	line-height: unset;
+		word-spacing: 1px;
 		color: black;
 	}
 	a {
@@ -28,5 +31,17 @@ $btn-clr: #b3d7ff;
 		&:hover {
 			box-shadow: 0 1.3rem 3rem rgba(0, 0, 0, 0.175) !important;
 		}
+	}
+	p {
+		a {
+			color: blue;
+			border-bottom: 2px solid black;
+			&:hover {
+				color: darkcyan;
+			}
+		}
+		font-size: 1rem;
+		font-weight: 500;
+		letter-spacing: 1px;		
 	}
 }
