@@ -1,8 +1,7 @@
-$blue-clr: #3585da;
-$bb-clr: midnightblue;
+$bg-clr: lightpink;
 $btn-clr: #b3d7ff;
 #body {
-	background-color: $blue-clr;
+	background-color: $bg-clr;
 }
 .Home
 {
@@ -13,14 +12,21 @@ $btn-clr: #b3d7ff;
 		margin-bottom: 50px;
 		font-size: 2.2rem;
     	line-height: unset;
-		color: $bb-clr;
+		color: black;
 	}
 	a {
 		color: $btn-clr;
 		font-size: 1.1rem;
 		letter-spacing: 2px;
+		&:hover,visited {
+			text-decoration: none;
+			color: $btn-clr;
+		}
 	}
 	.btn {
 		background-color: black;
+		&:hover {
+			box-shadow: 0 1.3rem 3rem rgba(0, 0, 0, 0.175) !important;
+		}
 	}
 }
