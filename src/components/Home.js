@@ -5,7 +5,7 @@ class Home extends Component {
 		return (
 			<div className="Home">
 				<center>
-					<h1>Hi, Welcome to my Art World!!</h1>
+					<h1>Hi... I am J. Jaya Varshini, studying in nineth standard. I love drawing aand painting. Here is some of my paintings and drawings :)</h1>
 				</center>
 			</div>
 		);
