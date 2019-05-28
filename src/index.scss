@@ -42,10 +42,14 @@ $btn-clr: #b3d7ff;
 		}
 		font-size: 1rem;
 		font-weight: 500;
-		letter-spacing: 1px;		
+		letter-spacing: 1px;
 	}
 }
-
+.Art {
+	h1{
+		padding: 200px;
+	}
+}
 @media screen and (max-width: 479px) {
 	body {
 		overflow-x: hidden;
@@ -58,7 +62,7 @@ $btn-clr: #b3d7ff;
 			margin-bottom: 0px;
 			font-size: 1.9rem;
 			word-spacing: 0px;
-		}  
+		}
 		.btn {
 			margin: 40px;
 		}
