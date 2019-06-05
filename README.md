@@ -2,8 +2,17 @@
 
 > A React based web application for displaying the art gallery of my sister - Jaya Varshini
 
-## Technology Stack
+## Tech Stack
 - HTML
-- CSS
+- SASS
 - Bootstrap
-- ReactJS
+- React JS
+
+## Dependencies
+1. [Node Js](https://nodejs.org/en/download/)
+
+## Getting Started
+1. Install dependencies  
+``` npm install ```
+2. Launch development server  
+``` npm start ```
