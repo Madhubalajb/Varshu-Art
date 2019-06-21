@@ -25,6 +25,7 @@ npm start
 * [Github pages](https://pages.github.com/) - Host directly from your Github repo, by simple push and deploy
 * [SASS](https://sass-lang.com/) - The Syntactically AWESOME guy
 * [Google Fonts](https://fonts.google.com/) - Collection of beautiful fonts
+* [Webp Images](https://developers.google.com/speed/webp/) - Such a light-weight images
 
 ## Directory Information
 ```
