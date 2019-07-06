@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
 import village from '../img/village.webp';
 import flower from '../img/flower.webp';
 import krishna from '../img/krishna.webp';
@@ -11,18 +12,50 @@ import lord_shiva from '../img/lord_shiva.webp';
 
 const Art = () => {
 	return (
-		<div className="Art">
-			<h1>Art</h1>
-			<img src={village} alt="Village Sketch" />
-			<img src={flower} alt="Flower Sketch" />
-			<img src={krishna} alt="krishna Sketch" />
-			<img src={land} alt="Land Ketch" />
-			<img src={restaurant} alt="Restaurant Sketch" />
-			<img src={sukki} alt="Sukki Sketch" />
-			<img src={Wanderland} alt="Wanderland Sketch" />
-			<img src={little_princess} alt="Little Princess Sketch" />
-			<img src={lord_shiva} alt="Lord Shiva Sketch" />
-		</div>
+		<center className="Art">
+			<Container>
+				<Row>
+					<Col className="card white">
+						<img src={village} alt="Village Sketch" />
+					</Col>
+					<Col className="card yellow">
+						<img src={flower} alt="Flower Sketch" />
+					</Col>
+				</Row>
+				<Row>
+					<Col className="card yellow">
+						<img src={krishna} alt="krishna Sketch" />
+					</Col>
+					<Col className="card white">
+						<img src={land} alt="Land Ketch" />
+					</Col>
+				</Row>
+				<Row>
+					<Col className="card white">
+						<img src={restaurant} alt="Restaurant Sketch" />
+					</Col>
+					<Col className="card yellow">
+						<img src={sukki} alt="Sukki Sketch" />
+					</Col>
+				</Row>
+				<Row>
+					<Col className="card yellow">
+						<img src={sukki} alt="Sukki Sketch" />
+					</Col>
+					<Col className="card white">
+						<img src={Wanderland} alt="Wanderland Sketch" />
+					</Col>
+				</Row>
+				<Row>
+					<Col className="card white">
+						<img src={little_princess} alt="Little Princess Sketch" />
+					</Col>
+					<Col className="card yellow">
+						<img src={lord_shiva} alt="Lord Shiva Sketch" />
+					</Col>
+				</Row>
+			</Container>
+		</center>
 	)
 }
 
