@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 const Navigation = () => {
 	return (
@@ -7,12 +7,6 @@ const Navigation = () => {
 			<Navbar.Brand href="/" className="text-info mx-5">
 				<strong>Varshu's Art</strong>
 			</Navbar.Brand>
-			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-			<Navbar.Collapse id="responsive-navbar-nav">
-				<Nav className="ml-auto">
-					<Nav.Link href="/art" className="mx-1">Art Shower</Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
 		</Navbar>
 	)
 }

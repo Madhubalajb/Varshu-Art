@@ -4,10 +4,18 @@ const Home = () => {
 	return (
 		<div className="Home">
 			<center>
-				<h1><b>Hi... I am J. Jaya Varshini, studying in nineth standard. I love drawing and painting. Here is some of my paintings and drawings :)</b></h1>
+				<h1>
+					<b>
+						<span className="white">Hi... I am </span> 
+						<span className="yellow">J. Jaya Varshini,<br/></span> 
+						<span className="white">welcome to my </span> 
+						<span className="yellow">art world.<br/></span>
+						<span className="white">And let's</span>
+					</b>
+				</h1>
 				<button className="btn shadow-sm"><a href="/art">View them</a></button>
 				<p className="fixed-bottom">designed & developed by  
-					<span><a href="https://madhubalajb.github.io/" target="_blank"> madhubala jayakumaran</a></span>
+					<a href="https://madhubalajb.github.io/" target="_blank"> madhubala jayakumaran</a>
 				</p>
 			</center>
 		</div>
