@@ -15,7 +15,7 @@ const Home = () => {
 				</h1>
 				<button className="btn shadow-sm"><a href="/art">View them</a></button>
 				<p className="fixed-bottom">designed & developed by  
-					<a href="https://madhubalajb.github.io/" target="_blank"> madhubala jayakumaran</a>
+					<a href="https://madhubalajb.github.io/" rel="noopener noreferrer" target="_blank"> madhubala jayakumaran</a>
 				</p>
 			</center>
 		</div>
