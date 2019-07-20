@@ -31,7 +31,7 @@ const Art = () => {
 
 					<div className="col Image-Container">
 						<img src={flower} alt="Flower Sketch"/>
-						<h5>Sembaruthi Flower</h5>
+						<h5>Sembaruthi</h5>
 						<ImageModal id="two" src={flower} show={show} Show={handleShow} Close={handleClose}/>
 					</div>
 
@@ -43,7 +43,7 @@ const Art = () => {
 
 					<div className="col Image-Container">
 						<img src={restaurant} alt="Restaurant Sketch"/>
-						<h5>Restaurant in Zootophia</h5>
+						<h5>Restaurant in Zootopia</h5>
 						<ImageModal id="four" src={restaurant} show={show} Show={handleShow} Close={handleClose}/>
 					</div>
 				</Row>
