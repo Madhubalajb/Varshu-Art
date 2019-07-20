@@ -1,35 +1,41 @@
-import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
-import village from '../img/village.webp';
-import flower from '../img/flower.webp';
-import krishna from '../img/krishna.webp';
-import land from '../img/land.webp';
-import restaurant from '../img/restaurant.webp';
-import sukki from '../img/sukki.webp';
-import Wanderland from '../img/Wanderland.webp';
-import little_princess from '../img/little_princess.webp';
-import lord_shiva from '../img/lord_shiva.webp';
+import React from 'react'
+import { Row, Container } from 'react-bootstrap'
+import chutki from '../img/chutki.webp'
+import flower from '../img/flower.webp'
+import girl1 from '../img/girl1.webp'
+import girl2 from '../img/girl2.webp'
+import girl3 from '../img/girl3.webp'
+import girl4 from '../img/girl4.webp'
+import krishna from '../img/krishna.webp'
+import restaurant from '../img/restaurant.webp'
+import ship from '../img/ship.webp'
+import sofia from '../img/sofia.webp'
+import village1 from '../img/village1.webp'
+import village2 from '../img/village2.webp'
 
 const Art = () => {
 	return (
 		<center className="Art">
 			<Container fluid={true}>
 				<Row>
-					<img src={village} alt="Village Sketch" />
-					<img src={flower} alt="Flower Sketch" />
-					<img src={krishna} alt="krishna Sketch" />
-					<img src={land} alt="Land Ketch" />
+					<img src={village1} alt="Village Sketch"/>
+					<img src={flower} alt="Flower Sketch"/>
+					<img src={krishna} alt="Lord krishna Sketch"/>
+					<img src={village2} alt="Village forest Sketch"/>
 				</Row>
 
 				<Row>
-					<img src={restaurant} alt="Restaurant Sketch" />
-					<img src={sukki} alt="Sukki Sketch" />
-					<img src={Wanderland} alt="Wanderland Sketch" />
-					<img src={little_princess} alt="Little Princess Sketch" />
+					<img src={restaurant} alt="Restaurant Sketch"/>
+					<img src={chutki} alt="Chota beam Chutki Sketch"/>
+					<img src={girl1} alt="Girl Sketch"/>
+					<img src={sofia} alt="Sofia Sketch"/>
 				</Row>
 
 				<Row>
-					<img src={lord_shiva} alt="Lord Shiva Sketch" />
+					<img src={girl2} alt="Girl Sketch"/>
+					<img src={girl3} alt="Girl Sketch"/>
+					<img src={girl4} alt="Girl Sketch"/>
+					<img src={ship} alt="Ship Sketch"/>
 				</Row>
 			</Container>
 		</center>
