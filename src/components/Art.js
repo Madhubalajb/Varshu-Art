@@ -13,46 +13,23 @@ import lord_shiva from '../img/lord_shiva.webp';
 const Art = () => {
 	return (
 		<center className="Art">
-			<Container>
+			<Container fluid={true}>
 				<Row>
-					<Col className="card white">
-						<img src={village} alt="Village Sketch" />
-					</Col>
-					<Col className="card yellow">
-						<img src={flower} alt="Flower Sketch" />
-					</Col>
+					<img src={village} alt="Village Sketch" />
+					<img src={flower} alt="Flower Sketch" />
+					<img src={krishna} alt="krishna Sketch" />
+					<img src={land} alt="Land Ketch" />
 				</Row>
+
 				<Row>
-					<Col className="card yellow">
-						<img src={krishna} alt="krishna Sketch" />
-					</Col>
-					<Col className="card white">
-						<img src={land} alt="Land Ketch" />
-					</Col>
+					<img src={restaurant} alt="Restaurant Sketch" />
+					<img src={sukki} alt="Sukki Sketch" />
+					<img src={Wanderland} alt="Wanderland Sketch" />
+					<img src={little_princess} alt="Little Princess Sketch" />
 				</Row>
+
 				<Row>
-					<Col className="card white">
-						<img src={restaurant} alt="Restaurant Sketch" />
-					</Col>
-					<Col className="card yellow">
-						<img src={sukki} alt="Sukki Sketch" />
-					</Col>
-				</Row>
-				<Row>
-					<Col className="card yellow">
-						<img src={sukki} alt="Sukki Sketch" />
-					</Col>
-					<Col className="card white">
-						<img src={Wanderland} alt="Wanderland Sketch" />
-					</Col>
-				</Row>
-				<Row>
-					<Col className="card white">
-						<img src={little_princess} alt="Little Princess Sketch" />
-					</Col>
-					<Col className="card yellow">
-						<img src={lord_shiva} alt="Lord Shiva Sketch" />
-					</Col>
+					<img src={lord_shiva} alt="Lord Shiva Sketch" />
 				</Row>
 			</Container>
 		</center>

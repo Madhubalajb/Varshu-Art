@@ -42,21 +42,15 @@ $blue: blue;
 		}
 	}
 	.Art {
-		.card {
-			margin-top: 30px;
-			margin-left: 30px;
+		.container-fluid {
+			padding-top: 100px;
+			padding-right: 100px;
+			padding-left: 150px;
 			img {
-				width: 508px;
-				height: 270px;
-				padding-top: 10px;
-				padding-bottom: 10px;
+				width: 318.75px;
+				height: 318.75px;
+				padding: 10px;
 			}
-		}
-		.white {
-			background-color: lightskyblue;
-		}
-		.yellow {
-			background-color: $yellow;
 		}
 	}
 }
