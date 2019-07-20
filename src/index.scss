@@ -78,6 +78,23 @@ $yellow: #e0be04;
 			}
 		}
 	}
+	.modal {
+		.modal-content {
+			width: fit-content;
+			.modal-header {
+				padding: 5px;
+    			border-bottom: 0px solid #dee2e6;
+			}
+			.modal-body {
+				padding: 5px;
+				img {
+					display: block;
+					width: 890px;
+					height: 626px;
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 479px) {
@@ -126,6 +143,3 @@ $yellow: #e0be04;
 	}
 }
 
-// display: block;
-//     width: 439px;
-//     height: 626px;
