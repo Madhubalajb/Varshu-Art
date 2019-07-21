@@ -21,8 +21,8 @@ npm install
 npm start
 ```
 ## What I Used
-* [Sublime Text](https://www.sublimetext.com/3) - A light weight and sophisticated text editor
-* [Github pages](https://pages.github.com/) - Host directly from your Github repo, by simple push and deploy
+* [Visual Studio Code](https://code.visualstudio.com/) - A more than everything text editor
+* [Heroku Appa](https://www.heroku.com/home) - Deploy with ease
 * [SASS](https://sass-lang.com/) - The Syntactically AWESOME guy
 * [Google Fonts](https://fonts.google.com/) - Collection of beautiful fonts
 * [Webp Images](https://developers.google.com/speed/webp/) - Such a light-weight images
@@ -38,7 +38,10 @@ npm start
         /images
         Art.js
         Home.js
+        ImageModal.js
         Navigation.js
+    /Img
+        - all webp images
     App.js
     index.js
     index.scss
