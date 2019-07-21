@@ -85,18 +85,21 @@ $yellow: #e0be04;
 		}
 	}
 	.modal {
-		.modal-content {
-			width: fit-content;
-			.modal-header {
-				padding: 5px;
-    			border-bottom: 0px solid #dee2e6;
-			}
-			.modal-body {
-				padding: 5px;
-				img {
-					display: block;
-					width: 890px;
-					height: 626px;
+		.modal-dialog {
+			max-width: fit-content;
+			.modal-content {
+				width: fit-content;
+				.modal-header {
+					padding: 5px;
+					border-bottom: 0px solid #dee2e6;
+				}
+				.modal-body {
+					padding: 5px;
+					img {
+						display: block;
+						width: 890px;
+						height: 626px;
+					}
 				}
 			}
 		}
@@ -135,6 +138,20 @@ $yellow: #e0be04;
 				}
 			}
 		}
+		.modal {
+			padding: 0px;
+			.modal-dialog {
+				margin: 0px;
+				.modal-content {
+					.modal-body {
+						img {
+							width: 350px;
+							height: 400px;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -155,6 +172,20 @@ $yellow: #e0be04;
 					padding-left: 0px;
 					padding-right: 0px;	
 				}
+			}
+		}
+		.modal {
+			padding: 0px;
+			.modal-dialog {
+				margin: 0px;
+				.modal-content {
+					.modal-body {
+						img {
+							width: 350px;
+							height: 400px;
+						}
+					}
+				}	
 			}
 		}	
 	}

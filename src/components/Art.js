@@ -15,86 +15,130 @@ import village1 from '../img/village1.webp'
 import village2 from '../img/village2.webp'
 
 const Art = () => {
-	const[show, setShow] = useState(false)
-	const handleShow = () => setShow(true)
-	const handleClose = () => setShow(false)
+	const[one, setOne] = useState(false)
+	const handleOne = () => setOne(true)
+	const handleNoOne = () => setOne(false)
+
+	const[two, setTwo] = useState(false)
+	const handleTwo = () => setTwo(true)
+	const handleNoTwo = () => setTwo(false)
+
+	const[three, setThree] = useState(false)
+	const handleThree = () => setThree(true)
+	const handleNoThree = () => setThree(false)
+
+	const[four, setFour] = useState(false)
+	const handleFour = () => setFour(true)
+	const handleNoFour = () => setFour(false)
+
+	const[five, setFive] = useState(false)
+	const handleFive = () => setFive(true)
+	const handleNoFive = () => setFive(false)
+
+	const[six, setSix] = useState(false)
+	const handleSix = () => setSix(true)
+	const handleNoSix = () => setSix(false)
+
+	const[seven, setSeven] = useState(false)
+	const handleSeven = () => setSeven(true)
+	const handleNoSeven = () => setSeven(false)
+
+	const[eight, setEight] = useState(false)
+	const handleEight = () => setEight(true)
+	const handleNoEight = () => setEight(false)
+
+	const[nine, setNine] = useState(false)
+	const handleNine = () => setNine(true)
+	const handleNoNine = () => setNine(false)
+
+	const[ten, setTen] = useState(false)
+	const handleTen = () => setTen(true)
+	const handleNoTen = () => setTen(false)
+
+	const[eleven, setEleven] = useState(false)
+	const handleEleven = () => setEleven(true)
+	const handleNoEleven = () => setEleven(false)
+
+	const[twelve, setTwelve] = useState(false)
+	const handleTwelve = () => setTwelve(true)
+	const handleNoTwelve = () => setTwelve(false)
 
 	return (
 		<center className="Art">
 			<Container>
 				<Row>
 					<div className="col Image-Container">
-						<img src={village1} alt="Village Sketch"/>
+						<img src={village1} alt="Village Sketch" onClick={handleOne}/>
 						<h5>Village</h5>
-						<ImageModal id="one" src={village1} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="one" src={village1} show={one} Show={handleOne} Close={handleNoOne}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={flower} alt="Flower Sketch"/>
+						<img src={flower} alt="Flower Sketch" onClick={handleTwo}/>
 						<h5>Sembaruthi</h5>
-						<ImageModal id="two" src={flower} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="two" src={flower} show={two} Show={handleTwo} Close={handleNoTwo}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={village2} alt="Village forest Sketch"/>
+						<img src={village2} alt="Village forest Sketch" onClick={handleThree}/>
 						<h5>Village Forest</h5>
-						<ImageModal id="three" src={village2} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="three" src={village2} show={three} Show={handleThree} Close={handleNoThree}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={restaurant} alt="Restaurant Sketch"/>
+						<img src={restaurant} alt="Restaurant Sketch" onClick={handleFour}/>
 						<h5>Restaurant in Zootopia</h5>
-						<ImageModal id="four" src={restaurant} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="four" src={restaurant} show={four} Show={handleFour} Close={handleNoFour}/>
 					</div>
 				</Row>
 
 				<Row>
 					<div className="col Image-Container">
-						<img src={girl2} alt="Girl Sketch"/>
-						<ImageModal id="five" src={girl2} show={show} Show={handleShow} Close={handleClose}/>
+						<img src={girl2} alt="Girl Sketch" onClick={handleFive}/>
+						<ImageModal id="five" src={girl2} show={five} Show={handleFive} Close={handleNoFive}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={girl4} alt="Girl Sketch"/>
-						<ImageModal id="six" src={girl4} show={show} Show={handleShow} Close={handleClose}/>
+						<img src={girl4} alt="Girl Sketch" onClick={handleSix}/>
+						<ImageModal id="six" src={girl4} show={six} Show={handleSix} Close={handleNoSix}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={girl1} alt="Girl Sketch"/>
-						<ImageModal id="seven" src={girl1} show={show} Show={handleShow} Close={handleClose}/>
+						<img src={girl1} alt="Girl Sketch" onClick={handleSeven}/>
+						<ImageModal id="seven" src={girl1} show={seven} Show={handleSeven} Close={handleNoSeven}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={girl3} alt="Girl Sketch"/>
-						<ImageModal id="eight" src={girl3} show={show} Show={handleShow} Close={handleClose}/>
+						<img src={girl3} alt="Girl Sketch" onClick={handleEight}/>
+						<ImageModal id="eight" src={girl3} show={eight} Show={handleEight} Close={handleNoEight}/>
 					</div>
 				</Row>
 
 				<Row>
 					<div className="col Image-Container">
-						<img src={sofia} alt="Sofia Sketch"/>
+						<img src={sofia} alt="Sofia Sketch" onClick={handleNine}/>
 						<h5>Disney Princess Sofia</h5>
-						<ImageModal id="nine" src={sofia} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="nine" src={sofia} show={nine} Show={handleNine} Close={handleNoNine}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={ship} alt="Ship Sketch"/>
+						<img src={ship} alt="Ship Sketch" onClick={handleTen}/>
 						<h5>Ship</h5>
-						<ImageModal id="ten" src={ship} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="ten" src={ship} show={ten} Show={handleTen} Close={handleNoTen}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={krishna} alt="Lord krishna Sketch"/>
+						<img src={krishna} alt="Lord krishna Sketch" onClick={handleEleven}/>
 						<h5>Kutty krishna</h5>
-						<ImageModal id="elevan" src={krishna} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="eleven" src={krishna} show={eleven} Show={handleEleven} Close={handleNoEleven}/>
 					</div>
 
 					<div className="col Image-Container">
-						<img src={chutki} alt="Chota beam Chutki Sketch"/>
+						<img src={chutki} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
 						<h5>Chota Beam Chutki</h5>
-						<ImageModal id="twelve" src={chutki} show={show} Show={handleShow} Close={handleClose}/>
+						<ImageModal id="twelve" src={chutki} show={twelve} Show={handleTwelve} Close={handleNoTwelve}/>
 					</div>
-				</Row>
+				</Row> 
 			</Container>
 		</center>
 	)
