@@ -70,47 +70,47 @@ const Art = () => {
 					<div className="col Image-Container">
 						<img src={village1} alt="Village Sketch" onClick={handleOne}/>
 						<h5>Village</h5>
-						<ImageModal id="one" src={village1} show={one} Show={handleOne} Close={handleNoOne}/>
+						<ImageModal id="one" src={village1} show={one} Close={handleNoOne}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={flower} alt="Flower Sketch" onClick={handleTwo}/>
 						<h5>Sembaruthi</h5>
-						<ImageModal id="two" src={flower} show={two} Show={handleTwo} Close={handleNoTwo}/>
+						<ImageModal id="two" src={flower} show={two} Close={handleNoTwo}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={village2} alt="Village forest Sketch" onClick={handleThree}/>
 						<h5>Village Forest</h5>
-						<ImageModal id="three" src={village2} show={three} Show={handleThree} Close={handleNoThree}/>
+						<ImageModal id="three" src={village2} show={three} Close={handleNoThree}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={restaurant} alt="Restaurant Sketch" onClick={handleFour}/>
 						<h5>Restaurant in Zootopia</h5>
-						<ImageModal id="four" src={restaurant} show={four} Show={handleFour} Close={handleNoFour}/>
+						<ImageModal id="four" src={restaurant} show={four} Close={handleNoFour}/>
 					</div>
 				</Row>
 
 				<Row>
 					<div className="col Image-Container">
 						<img src={girl2} alt="Girl Sketch" onClick={handleFive}/>
-						<ImageModal id="five" src={girl2} show={five} Show={handleFive} Close={handleNoFive}/>
+						<ImageModal id="five" src={girl2} show={five} Close={handleNoFive}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={girl4} alt="Girl Sketch" onClick={handleSix}/>
-						<ImageModal id="six" src={girl4} show={six} Show={handleSix} Close={handleNoSix}/>
+						<ImageModal id="six" src={girl4} show={six} Close={handleNoSix}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={girl1} alt="Girl Sketch" onClick={handleSeven}/>
-						<ImageModal id="seven" src={girl1} show={seven} Show={handleSeven} Close={handleNoSeven}/>
+						<ImageModal id="seven" src={girl1} show={seven} Close={handleNoSeven}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={girl3} alt="Girl Sketch" onClick={handleEight}/>
-						<ImageModal id="eight" src={girl3} show={eight} Show={handleEight} Close={handleNoEight}/>
+						<ImageModal id="eight" src={girl3} show={eight} Close={handleNoEight}/>
 					</div>
 				</Row>
 
@@ -118,25 +118,25 @@ const Art = () => {
 					<div className="col Image-Container">
 						<img src={sofia} alt="Sofia Sketch" onClick={handleNine}/>
 						<h5>Disney Princess Sofia</h5>
-						<ImageModal id="nine" src={sofia} show={nine} Show={handleNine} Close={handleNoNine}/>
+						<ImageModal id="nine" src={sofia} show={nine} Close={handleNoNine}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={ship} alt="Ship Sketch" onClick={handleTen}/>
 						<h5>Ship</h5>
-						<ImageModal id="ten" src={ship} show={ten} Show={handleTen} Close={handleNoTen}/>
+						<ImageModal id="ten" src={ship} show={ten} Close={handleNoTen}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={krishna} alt="Lord krishna Sketch" onClick={handleEleven}/>
 						<h5>Kutty krishna</h5>
-						<ImageModal id="eleven" src={krishna} show={eleven} Show={handleEleven} Close={handleNoEleven}/>
+						<ImageModal id="eleven" src={krishna} show={eleven} Close={handleNoEleven}/>
 					</div>
 
 					<div className="col Image-Container">
 						<img src={chutki} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
 						<h5>Chota Beam Chutki</h5>
-						<ImageModal id="twelve" src={chutki} show={twelve} Show={handleTwelve} Close={handleNoTwelve}/>
+						<ImageModal id="twelve" src={chutki} show={twelve} Close={handleNoTwelve}/>
 					</div>
 				</Row> 
 			</Container>
