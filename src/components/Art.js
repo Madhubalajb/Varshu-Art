@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Row, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import ImageModal from './ImageModal'
 import chutki from '../img/chutki.webp'
 import flower from '../img/flower.webp'
@@ -68,25 +68,21 @@ const Art = () => {
 			<Container fluid>
 				<article className="Image-Container">
 					<img src={village1} alt="Village Sketch" onClick={handleOne}/>
-					<h5>Village</h5>
 					<ImageModal id="one" src={village1} show={one} Close={handleNoOne}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={flower} alt="Flower Sketch" onClick={handleTwo}/>
-					<h5>Sembaruthi</h5>
 					<ImageModal id="two" src={flower} show={two} Close={handleNoTwo}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={village2} alt="Village forest Sketch" onClick={handleThree}/>
-					<h5>Village Forest</h5>
 					<ImageModal id="three" src={village2} show={three} Close={handleNoThree}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={restaurant} alt="Restaurant Sketch" onClick={handleFour}/>
-					<h5>Restaurant in Zootopia</h5>
 					<ImageModal id="four" src={restaurant} show={four} Close={handleNoFour}/>
 				</article>
 			
@@ -112,25 +108,21 @@ const Art = () => {
 
 				<article className="Image-Container">
 					<img src={sofia} alt="Sofia Sketch" onClick={handleNine}/>
-					<h5>Disney Princess Sofia</h5>
 					<ImageModal id="nine" src={sofia} show={nine} Close={handleNoNine}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={ship} alt="Ship Sketch" onClick={handleTen}/>
-					<h5>Ship</h5>
 					<ImageModal id="ten" src={ship} show={ten} Close={handleNoTen}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={krishna} alt="Lord krishna Sketch" onClick={handleEleven}/>
-					<h5>Kutty krishna</h5>
 					<ImageModal id="eleven" src={krishna} show={eleven} Close={handleNoEleven}/>
 				</article>
 
 				<article className="Image-Container">
 					<img src={chutki} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
-					<h5>Chota Beam Chutki</h5>
 					<ImageModal id="twelve" src={chutki} show={twelve} Close={handleNoTwelve}/>
 				</article>
 			</Container>
