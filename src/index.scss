@@ -73,9 +73,13 @@ $yellow: #e0be04;
 			max-width: fit-content;
 			.modal-content {
 				width: fit-content;
+				background-color: blue;
 				.modal-header {
 					padding: 5px;
 					border-bottom: 0px solid #dee2e6;
+					.close {
+						color: $yellow;
+					}
 				}
 				.modal-body {
 					padding: 5px;
