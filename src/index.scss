@@ -47,15 +47,13 @@ $yellow: #e0be04;
 		}
 	}
 	.Art {
-		.container{
+		.container-fluid{
 			max-width: fit-content;
-			padding-top: 100px;
-			.col {
-				padding-left: 0px;
-				padding-right: 0px;
+			padding-top: 100px;	
+			article {
+				display: contents;
 			}
 			.Image-Container {
-				position: relative;
 				h5 {
 					color: blue;
 					opacity: 0;

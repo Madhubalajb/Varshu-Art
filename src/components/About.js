@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const About = () => {
 	return (
 		<div className="Home">
 			<center>
@@ -13,7 +13,7 @@ const Home = () => {
 						<span className="white">And let's</span>
 					</b>
 				</h1>
-				<button className="btn shadow-sm"><a href="/art">View them</a></button>
+				
 				<p className="fixed-bottom">designed & developed by  
 					<a href="https://madhubalajb.github.io/" rel="noopener noreferrer" target="_blank"> madhubala jayakumaran</a>
 				</p>
@@ -22,4 +22,4 @@ const Home = () => {
 	)
 }
 
-export default Home;
+export default About;

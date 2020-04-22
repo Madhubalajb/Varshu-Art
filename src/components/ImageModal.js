@@ -6,7 +6,7 @@ const ImageModal = (props) => {
         <Modal show={props.show} onHide={props.Close} centered>
             <Modal.Header closeButton></Modal.Header>
             <Modal.Body>
-                <img src={props.src}/>
+                <img src={props.src} alt="Image"/>
             </Modal.Body>
         </Modal>
     )
