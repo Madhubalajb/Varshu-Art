@@ -71,21 +71,15 @@ $yellow: #e0be04;
 	.modal {
 		.modal-dialog {
 			max-width: fit-content;
-			.modal-content {
-				width: fit-content;
-				background-color: blue;
+			.modal-content {		
 				.modal-header {
 					padding: 5px;
 					border-bottom: 0px solid #dee2e6;
-					.close {
-						color: $yellow;
-					}
 				}
 				.modal-body {
 					padding: 5px;
 					img {
 						display: block;
-						width: 890px;
 						height: 626px;
 					}
 				}
