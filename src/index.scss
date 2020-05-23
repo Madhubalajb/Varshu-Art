@@ -40,6 +40,12 @@ $yellow: #e0be04;
 			}
 		}
 		p {
+			.fab {
+				margin: 0px 5px;
+				&:hover {
+					text-decoration: none;
+				}
+			}
 			font-size: 1rem;
 			font-weight: 500;
 			letter-spacing: 1px;
