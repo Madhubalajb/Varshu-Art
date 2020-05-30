@@ -7,12 +7,18 @@ import girl1 from '../img/girl1.webp'
 import girl2 from '../img/girl2.webp'
 import girl3 from '../img/girl3.webp'
 import girl4 from '../img/girl4.webp'
+import greenery from '../img/greenery.webp'
 import krishna from '../img/krishna.webp'
+import moon_girl from '../img/moon_girl.webp'
+import night_bird from '../img/night_bird.webp'
+import pink_tree from '../img/pink_tree.webp'
+import rainbow_tree from '../img/rainbow_tree.webp'
+import red_bubbles from '../img/red_bubbles.webp'
 import restaurant from '../img/restaurant.webp'
 import ship from '../img/ship.webp'
 import sofia from '../img/sofia.webp'
-import village1 from '../img/village1.webp'
-import village2 from '../img/village2.webp'
+import valley from '../img/valley.webp'
+import village from '../img/village.webp'
 
 const Art = () => {
 	const[one, setOne] = useState(false)
@@ -63,12 +69,36 @@ const Art = () => {
 	const handleTwelve = () => setTwelve(true)
 	const handleNoTwelve = () => setTwelve(false)
 
+	const[thirteen, setThirteen] = useState(false)
+	const handleThirteen = () => setThirteen(true)
+	const handleNoThirten = () => setThirteen(false)
+
+	const[fourteen, setFourteen] = useState(false)
+	const handleFourteen = () => setFourteen(true)
+	const handleNoFourteen = () => setFourteen(false)
+
+	const[fifteen, setFifteen] = useState(false)
+	const handleFifteen = () => setFifteen(true)
+	const handleNoFifteen = () => setFifteen(false)
+
+	const[sixteen, setSixteen] = useState(false)
+	const handleSixteen = () => setSixteen(true)
+	const handleNoSixteen = () => setSixteen(false)
+
+	const[seventeen, setSeventeen] = useState(false)
+	const handleSeventeen = () => setSeventeen(true)
+	const handleNoSeventeen = () => setSeventeen(false)
+
+	const[eighteen, setEighteen] = useState(false)
+	const handleEighteen = () => setEighteen(true)
+	const handleNoEighteen = () => setEighteen(false)
+
 	return (
 		<center className="Art">
 			<Container fluid>
 				<article className="Image-Container">
-					<img src={village1} alt="Village Sketch" onClick={handleOne}/>
-					<ImageModal id="one" src={village1} show={one} Close={handleNoOne}/>
+					<img src={village} alt="Village Sketch" onClick={handleOne}/>
+					<ImageModal id="one" src={village} show={one} Close={handleNoOne}/>
 				</article>
 
 				<article className="Image-Container">
@@ -77,13 +107,13 @@ const Art = () => {
 				</article>
 
 				<article className="Image-Container">
-					<img src={village2} alt="Village forest Sketch" onClick={handleThree}/>
-					<ImageModal id="three" src={village2} show={three} Close={handleNoThree}/>
+					<img src={valley} alt="Village forest Sketch" onClick={handleThree}/>
+					<ImageModal id="three" src={valley} show={three} Close={handleNoThree}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={restaurant} alt="Restaurant Sketch" onClick={handleFour}/>
-					<ImageModal id="four" src={restaurant} show={four} Close={handleNoFour}/>
+					<img src={rainbow_tree} alt="Restaurant Sketch" onClick={handleFour}/>
+					<ImageModal id="four" src={rainbow_tree} show={four} Close={handleNoFour}/>
 				</article>
 			
 				<article className="Image-Container">
@@ -97,8 +127,8 @@ const Art = () => {
 				</article>
 
 				<article className="Image-Container">
-					<img src={girl1} alt="Girl Sketch" onClick={handleSeven}/>
-					<ImageModal id="seven" src={girl1} show={seven} Close={handleNoSeven}/>
+					<img src={pink_tree} alt="Girl Sketch" onClick={handleSeven}/>
+					<ImageModal id="seven" src={pink_tree} show={seven} Close={handleNoSeven}/>
 				</article>
 
 				<article className="Image-Container">
@@ -112,8 +142,8 @@ const Art = () => {
 				</article>
 
 				<article className="Image-Container">
-					<img src={ship} alt="Ship Sketch" onClick={handleTen}/>
-					<ImageModal id="ten" src={ship} show={ten} Close={handleNoTen}/>
+					<img src={greenery} alt="Ship Sketch" onClick={handleTen}/>
+					<ImageModal id="ten" src={greenery} show={ten} Close={handleNoTen}/>
 				</article>
 
 				<article className="Image-Container">
@@ -122,8 +152,38 @@ const Art = () => {
 				</article>
 
 				<article className="Image-Container">
-					<img src={chutki} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
-					<ImageModal id="twelve" src={chutki} show={twelve} Close={handleNoTwelve}/>
+					<img src={night_bird} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
+					<ImageModal id="twelve" src={night_bird} show={twelve} Close={handleNoTwelve}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={chutki} alt="" onClick={handleThirteen}/>
+					<ImageModal id="thirteen" src={chutki} show={thirteen} Close={handleNoThirten}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={red_bubbles} alt="" onClick={handleFourteen}/>
+					<ImageModal id="fourteen" src={red_bubbles} show={fourteen} Close={handleNoFourteen}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={moon_girl} alt="" onClick={handleFifteen}/>
+					<ImageModal id="fifteen" src={moon_girl} show={fifteen} Close={handleNoFifteen}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={restaurant} alt="" onClick={handleSixteen}/>
+					<ImageModal id="sixteen" src={restaurant} show={sixteen} Close={handleNoSixteen}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={girl1} alt="" onClick={handleSeventeen}/>
+					<ImageModal id="seventeen" src={girl1} show={seventeen} Close={handleNoSeventeen}/>
+				</article>
+
+				<article className="Image-Container">
+					<img src={ship} alt="" onClick={handleEighteen}/>
+					<ImageModal id="eighteen" src={ship} show={eighteen} Close={handleNoEighteen}/>
 				</article>
 			</Container>
 		</center>
