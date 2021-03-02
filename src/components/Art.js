@@ -97,92 +97,92 @@ const Art = () => {
 		<center className="Art">
 			<Container fluid>
 				<article className="Image-Container">
-					<img src={village} alt="Village Sketch" onClick={handleOne}/>
+					<img src={village} alt="Village" onClick={handleOne}/>
 					<ImageModal id="one" src={village} show={one} Close={handleNoOne}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={flower} alt="Flower Sketch" onClick={handleTwo}/>
+					<img src={flower} alt="Flower" onClick={handleTwo}/>
 					<ImageModal id="two" src={flower} show={two} Close={handleNoTwo}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={valley} alt="Village forest Sketch" onClick={handleThree}/>
+					<img src={valley} alt="Valley" onClick={handleThree}/>
 					<ImageModal id="three" src={valley} show={three} Close={handleNoThree}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={rainbow_tree} alt="Restaurant Sketch" onClick={handleFour}/>
+					<img src={rainbow_tree} alt="Rainbow tree" onClick={handleFour}/>
 					<ImageModal id="four" src={rainbow_tree} show={four} Close={handleNoFour}/>
 				</article>
 			
 				<article className="Image-Container">
-					<img src={girl2} alt="Girl Sketch" onClick={handleFive}/>
+					<img src={girl2} alt="Girl" onClick={handleFive}/>
 					<ImageModal id="five" src={girl2} show={five} Close={handleNoFive}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={girl4} alt="Girl Sketch" onClick={handleSix}/>
+					<img src={girl4} alt="Girl" onClick={handleSix}/>
 					<ImageModal id="six" src={girl4} show={six} Close={handleNoSix}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={pink_tree} alt="Girl Sketch" onClick={handleSeven}/>
+					<img src={pink_tree} alt="Pink Tree" onClick={handleSeven}/>
 					<ImageModal id="seven" src={pink_tree} show={seven} Close={handleNoSeven}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={girl3} alt="Girl Sketch" onClick={handleEight}/>
+					<img src={girl3} alt="Girl" onClick={handleEight}/>
 					<ImageModal id="eight" src={girl3} show={eight} Close={handleNoEight}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={sofia} alt="Sofia Sketch" onClick={handleNine}/>
+					<img src={sofia} alt="Sofia" onClick={handleNine}/>
 					<ImageModal id="nine" src={sofia} show={nine} Close={handleNoNine}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={greenery} alt="Ship Sketch" onClick={handleTen}/>
+					<img src={greenery} alt="Sun set" onClick={handleTen}/>
 					<ImageModal id="ten" src={greenery} show={ten} Close={handleNoTen}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={krishna} alt="Lord krishna Sketch" onClick={handleEleven}/>
+					<img src={krishna} alt="Lord krishna" onClick={handleEleven}/>
 					<ImageModal id="eleven" src={krishna} show={eleven} Close={handleNoEleven}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={night_bird} alt="Chota beam Chutki Sketch" onClick={handleTwelve}/>
+					<img src={night_bird} alt="Night bird" onClick={handleTwelve}/>
 					<ImageModal id="twelve" src={night_bird} show={twelve} Close={handleNoTwelve}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={chutki} alt="" onClick={handleThirteen}/>
+					<img src={chutki} alt="Chota beam Chutki" onClick={handleThirteen}/>
 					<ImageModal id="thirteen" src={chutki} show={thirteen} Close={handleNoThirten}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={red_bubbles} alt="" onClick={handleFourteen}/>
+					<img src={red_bubbles} alt="Heart bubbles" onClick={handleFourteen}/>
 					<ImageModal id="fourteen" src={red_bubbles} show={fourteen} Close={handleNoFourteen}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={moon_girl} alt="" onClick={handleFifteen}/>
+					<img src={moon_girl} alt="Moon girl" onClick={handleFifteen}/>
 					<ImageModal id="fifteen" src={moon_girl} show={fifteen} Close={handleNoFifteen}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={restaurant} alt="" onClick={handleSixteen}/>
+					<img src={restaurant} alt="Restaurant in Zootophia" onClick={handleSixteen}/>
 					<ImageModal id="sixteen" src={restaurant} show={sixteen} Close={handleNoSixteen}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={girl1} alt="" onClick={handleSeventeen}/>
+					<img src={girl1} alt="Girl" onClick={handleSeventeen}/>
 					<ImageModal id="seventeen" src={girl1} show={seventeen} Close={handleNoSeventeen}/>
 				</article>
 
 				<article className="Image-Container">
-					<img src={ship} alt="" onClick={handleEighteen}/>
+					<img src={ship} alt="Ship" onClick={handleEighteen}/>
 					<ImageModal id="eighteen" src={ship} show={eighteen} Close={handleNoEighteen}/>
 				</article>
 			</Container>
